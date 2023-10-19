@@ -1,0 +1,3 @@
+simbolo do banco -> MySQL -> MySQL console
+
+simbolo do banco -> phpMyAdmin

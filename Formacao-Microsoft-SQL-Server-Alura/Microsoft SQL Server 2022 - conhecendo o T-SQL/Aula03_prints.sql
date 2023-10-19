@@ -1,0 +1,50 @@
+--atribuindo valores com select
+
+DECLARE @CPF VARCHAR(50);
+DECLARE @NOME VARCHAR(100);
+DECLARE @DATA_NASCIMENTO DATE; 
+DECLARE @IDADE INT;
+declare @linha varchar(50);
+
+SET @CPF = '19290992743';
+
+SELECT @NOME = NOME,
+@DATA_NASCIMENTO = [DATA DE NASCIMENTO],
+@IDADE = IDADE
+FROM [TABELA DE CLIENTES] WHERE CPF = @CPF;
+
+PRINT @CPF;
+PRINT @NOME;
+PRINT @IDADE;
+
+--desafio: variável chamada NUMNOTAS e atribuir a ela o número de notas fiscais do dia 01/01/2017?
+DECLARE @NUMNOTAS INT;
+
+SELECT @NUMNOTAS = COUNT(*) 
+FROM [NOTAS FISCAIS] NF
+WHERE NF.DATA = '2017-01-01';
+
+PRINT @NUMNOTAS;
+
+
+
+set @linha = '--------------------------------------------------';
+print @linha
+
+--FUNÇÕES NO PRINT
+
+--SELECT NOME, 
+--CHARINDEX(' ', NOME) AS POSICAO, 
+--SUBSTRING(NOME, 1, CHARINDEX(' ', NOME) -1) AS PRIMEIRO_NOME
+--FROM [TABELA DE CLIENTES];
+
+
+PRINT 'O primeiro nome d@ cliente de CPF "' + @CPF + '" é "' + SUBSTRING(@NOME, 1, CHARINDEX(' ', @NOME) -1) + '"'; 
+
+print @linha
+
+--desafio
+SET @CPF = '1471156710';
+SELECT @DATA_NASCIMENTO = [DATA DE NASCIMENTO] FROM [TABELA DE CLIENTES] WHERE CPF = @CPF;
+PRINT 'A idade de ' + @NOME + ' é: '
+PRINT DATEDIFF(YEAR, @DATA_NASCIMENTO, GETDATE());

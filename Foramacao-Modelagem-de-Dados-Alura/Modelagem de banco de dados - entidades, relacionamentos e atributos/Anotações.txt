@@ -1,0 +1,18 @@
+MER: Modelo Entidade Relacionamento (Modelo Conceitual)
+	Descrever objetos (entidades), caracteristicas (atributos), como se relacionam (relacionamentos)
+
+DER: Representação gráfica do MER
+
+Entidades: objetos ou elementos do mundo real que são representados e manipulados em um sistema de informação
+Entidade forte: é uma entidade que pode existir de forma independente
+Entidade fraca: depende de uma entidade forte para existir
+
+Relacionamentos: conexões ou associações entre entidades em um sistema de informação, que descrevem como elas interagem ou se relacionam entre si
+
+Atributos - Atributos são características ou propriedades das entidades que descrevem seus aspectos específicos ou detalhes
+Atributos simples: representam valores indivisíveis, como um número, texto ou data.
+Atributos compostos: são compostos por sub-atributos, formando uma estrutura hierárquica.
+Atributos multivalorados: podem conter múltiplos valores para uma mesma entidade.
+Atributos derivados: são calculados a partir de outros atributos, não sendo armazenados explicitamente.
+Atributos-chave: identificam unicamente cada instância de uma entidade.
+Atributos nulos: representam a ausência de valor para um atributo específico em uma entidade.

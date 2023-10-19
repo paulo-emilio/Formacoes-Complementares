@@ -1,0 +1,7 @@
+No menu de cima -> Server -> Data Export -> selecionar o que exportar 
+
+Caixinha embaixo: "Gerar o Dump" é gerar a cópia do banco -> selecionar se quer exportar so a data so estrutura ou os 2
+
+Export Options: Selecionar como exportar e pra onde, na aula usamos o 'to Self-Contained File'
+
+Selecionar 'Include Create Schema' para criar o banco de dados no lugar que o arquivo será importado

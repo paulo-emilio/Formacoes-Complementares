@@ -1,0 +1,9 @@
+--FERRAMENTAS DE MANIPULAÇÃO DE DADOS
+
+Transact SQL, próprio do SQL Server
+SQL Integration
+Informatica
+Power Center
+Pentaho ETL
+SAP Data Services
+Data Stage

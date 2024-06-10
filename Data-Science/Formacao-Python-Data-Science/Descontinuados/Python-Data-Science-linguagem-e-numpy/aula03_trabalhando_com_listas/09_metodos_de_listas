@@ -1,0 +1,11 @@
+lista.sort() -> ordena a lista em ordem alfabética
+
+lista.append('4 x 4') -> adiciona o item no final da lista
+
+lista.pop() -> remove o útimo item
+
+litsa.pop(3) -> remove o item que esta no index 3 da lista
+
+lista = lista2 -> não cria uma nova lista, mas sim cria um novo rótulo para a mesma lista
+
+lista2 = lista.copy() -> cria uma cópia de 'lista' chamada de 'lista2'

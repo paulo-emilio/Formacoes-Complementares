@@ -1,3 +1,3 @@
 # Formacoes-Complementares
- Repositório de Aprendizado extra-curricular feito em plataformas como: Alura, Curso em Video e Udemy.
- Incluíndo: Ciência de dados, Análise de dados, Python, Machine Learning, IA, etc.
+ Repositório de aprendizado extra-curricular realizado em plataformas como Alura, Curso em Vídeo e Udemy. 
+ Inclui: Ciência de Dados, Análise de Dados, Python, Machine Learning, IA, etc.
